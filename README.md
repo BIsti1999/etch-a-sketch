@@ -1,1 +1,1 @@
-# etch-a-sketch
+In this project I will make an etch-a-sketch using DOM manipulation skills.

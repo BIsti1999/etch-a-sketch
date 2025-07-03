@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    box-sizing: border-box; 
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background-color: wheat;
+}
+
+button {
+    background-color: aquamarine;
+    padding: 16px;     
+}
+
+.div {
+    flex: 1;
+    border-right: 1px dotted grey;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border-bottom: 1px dotted grey;
+}  
+
+.row > *:last-child {
+    border: 0;
+}
+
+#container {
+    width: 750px;
+    height: 750px;
+    border: 8px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#container > *:last-child {
+    border: 0;
+}
